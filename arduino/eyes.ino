@@ -61,7 +61,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("STARTING SPOOKY PUMPKIN");
 
-  WiFi.begin("ghost tower", "poopsocks");
+  WiFi.begin("WIFI SSID", "WIFI PASSWORD");
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
     Serial.println("Connecting to WiFi...");
